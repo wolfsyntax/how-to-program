@@ -8,6 +8,6 @@ C, C++, Java, clisp, Turbo Assembler, Bash, Python, Prolog, Fortran
 
 HTML, CSS, Javascript
 
-Please support us, here is our bitcoin address:  #3Dqee8AFzFfvDBEDq8Aihs2HG33AZsVWVG 
+Please support us, here is our bitcoin address:  3Dqee8AFzFfvDBEDq8Aihs2HG33AZsVWVG 
 
 
