@@ -1,0 +1,108 @@
+
+<!--
+  
+    Ateneo de Naga University
+    College of Computer Studies
+    Department of Compputer Science
+
+    Subject: ICST231- Web Development and Programming
+    Laboratory Exercise #3
+
+    This is implemented using HTML, Javascript, CSS.
+    Copyright (C) 2016  Jayson D. Alpe
+      
+-->
+
+<!-- 
+	
+-->
+<html>
+	<head>
+		<title>
+			Bicol Tourism Portal!
+		</title>
+		<meta name="author" content="Jayson D. Alpe">
+		<meta name="keywords" content="Laboratory Exercise">
+		<script type="text/javascript">
+			function test()
+			{
+				alert("Hello, World!");
+			}
+			function search()
+			{
+				var place = document.find.search_place.value.toLowerCase();
+				if(place == "mayon" || place == "mayon volcano" || place == "volcano")
+				{
+					document.getElementById("result").src="mayon.jpg"
+					document.getElementById("details").innerHTML = "<p>&emsp;Mayon Volcano (Central Bikol: Bulkan Mayon, Filipino: Bulkang Mayon), also known as Mount Mayon or simply Mayon, is an active stratovolcano in the province of Albay in Bicol Region, on the island of Luzon in the Philippines. Renowned as the perfect cone because of its symmetric conical shape, the volcano and its surrounding landscape was declared a national park on July 20, 1938, the first in the nation. It was reclassified a Natural Park and renamed Mayon Volcano Natural Park in the year 2000. Local folklore refers to the volcano being named after the legendary princess-heroine Daragang Magayon (English: Beautiful Lady).</p><p>&emsp;Mayon Volcano is the main landmark and highest point of the province of Albay and the whole Bicol Region in the Philippines, rising 2,462 metres (8,077 ft) from the shores of the Albay Gulf about 10 kilometres (6.2 mi) away. The volcano is geographically shared by the eight cities and municipalities of Legazpi, Daraga, Camalig, Guinobatan, Ligao, Tabaco, Malilipot and Santo Domingo (clockwise from Legazpi), which divide the cone like slices of a pie when viewed from above.</p>";
+				}
+				else if(place == "cathedral" || place == "naga cathedral" || place == "metropolitan cathedral")
+				{
+					document.getElementById("result").src="cathedral.jpg";
+					document.getElementById("details").innerHTML = "<p>&emsp;The Naga Metropolitan Cathedral (formal name: Metropolitan Cathedral of Saint John the Evangelist) is a Roman Catholic cathedral in Naga City, Camarines Sur, Philippines. It is the seat of the Roman Catholic Archdiocese of Caceres. The first church was established after the creation of the archdiocese as the Diocese of Caceres in 1595. The present cathedral was built in 1808, and was completed and consecrated in 1843. The Most Rev Rolando Joven Tria Tirona O.C.D., D.D. is the present Archbishop of Caceres, while Rev Noe P. Badiola was appointed rector in 2011.</p><p>&emsp;The first cathedral built for Naga was founded after the Diocese of Caceres was established in 1595. It is a suffragan of the Diocese of Manila created by the papal bull of 14 August 1595, which also elevated the Diocese of Manila into an archdiocese. The church was destroyed by fire in 1768. The construction of present cathedral in Spanish Romanesque Revival style was begun by Bishop Bernardo dela Concepcion O.F.M. in 1808. An earthquake in 1820 damaged the cathedral. It was finished and consecrated under the administration of Monsignor Tomas Ladron de Guevara in 1843. It was damaged by typhoon in October 1856, restored by the Fray Francisco Gainza in 1862-1879. Damaged by earthquake in 1887, repaired by Obras Publicas under the direction of Bishop Arsenio del Campo and Ricardo Ayuso in 1890.During the episcopate of Leonardo Zamora Legaspi, the cathedral was restored beginning in April 1987 under the supervision of Jaime M. San Andres, parish priest of the Saint John the Evangelist Parish, Naga City. On February 6, 1988 during the feast of Saint Peter Baptist, titular patron of the Archdiocese of Caceres, this Metropolitan Cathedral was again inaugurated and rededicated by Archbishop Legaspi together with other Bicolano bishops and priests.</p>";	
+				}
+				else if(place == "penafrancia" || place == "basilica" || place == "basilica minore")
+				{
+					document.getElementById("result").src="basilica.jpg";
+					document.getElementById("details").innerHTML = "<p>The Penafrancia Minor Basilica or the Minor Basilica of the Our Lady of Penafrancia (Spanish: Basilica Minore de Penafrancia) is a Roman Catholic Minor Basilica located on the outskirts of Naga City - also known as the Pilgrim City and Queen City of Bicol - in the Bicol Region of the Philippines. It is one of the largest Marian Pilgrimage Sites in Asia. The Image of Our Lady of Penafrancia is enshrined in this sanctuary. Rev. Fr. Rodel Cajot is the present Rector of the Basilica, having been appointed in 2011.</p><p>It is the only Basilica in the Bicol Region and the whole Roman Catholic Archdiocese of Caceres</p><p>The concept for the building came from the late Archbishop Pedro Paulo Santos y Songco in 1960. Construction began on April 18, 1976, but was delayed for a number of years due to financing problems and was not completed until September 1981. On May 22, 1982, it was dedicated as The Church of Nuestra Senora de Pena de Francia and it wasn't until May 22, 1985 that the church was given the title of Basilica Minore from Rome after a request from the third Archbishop of Caceres, Leonardo Z. Legaspi, O.P., D.D. The Penafrancia Basilica Minore houses an image of the virgin Mary that was sculpted in 1710. It was commissioned by Miguel de Cobarrubias, who moved to the Philippines from Spain with his family and believed that the virgin Mary had helped him numerous times in his life. The image was housed in a small chapel until the Basilica Minore was constructed. Archbishop Pedro P. Santos noted that the devotees and pilgrims kept increasing through the years. In 1960, he dreamt of building a basilica to give honor to Our Lady. Shortly after, through the meditation of the Archbishop Emeritus Teopisto V. Alberto, D.D. and the Association of Our Lady of Penafrancia, Mr and Mrs. Macario Mariano donated a three hectare lot at barrio Balatas. Bishop Concordio Sarte initiated the ground work of the construction. Blessing and laying of the cornerstone was held on Easter Sunday, April 18, 1976 having Church dignitaries led by Cardinal Jaime Sin and prominent Bicolano sponsors.</p>";	
+				}
+			}
+		</script>
+		<style type="text/css">
+			div.content, div.section
+			{
+				width: 100%;
+				margin: auto;
+			}
+			.col-1
+			{
+				width: 60%;
+			}
+			.col-2
+			{
+				width: 40%;
+				
+			}
+			table
+			{
+				margin: auto;
+				margin-right: 50px;
+			}
+			p
+			{
+				text-align: justify;
+			}
+			img
+			{
+				width: 90%;
+				height: auto;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div class="content">
+			<div class="section">
+				<h1>Welcome to Bicol Tourism Portal</h1>
+				<form name="find" onsubmit="search(); return false;">
+					<label for="search_place">Enter a place name: </label>
+					<input type="text" name="search_place"/>
+					<input type="submit" name="submit" value="Submit"/>
+				</form>
+			</div>
+			<div class="section">
+				<table>
+					<tr>
+						<td class="col-1">
+							<img src="" id="result"/>
+						</td>
+						<td class="col-2">
+							<p id="details"></p>
+						</td>
+					</tr>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>
