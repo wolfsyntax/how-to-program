@@ -3,8 +3,8 @@
 #-------------------------------------------------------------------------#
 # Filename        : 201311567_e3.sh                                       #
 # Author          : Jayson D. Alpe                                        #
-# Course and Year : BSIT-3                                                      #
-# Last Modified   : December 6, 2016                                                      #
+# Course and Year : BSIT-3                                                #
+# Last Modified   : December 6, 2016                                      #
 # Honor Code      : This is my own code. I have worked hard in completing #
 #                   this work and I have not copied from any unauthorized #
 #                   resource. I am also well aware of the policies        #
