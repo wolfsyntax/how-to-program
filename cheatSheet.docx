@@ -1,104 +1,110 @@
 																					BASH (Bourne Again Shell)
 
-																					GENERAL COMMANDS MANUAL
 
 
-alias				Create an alias,substitute a command to a simple word
-						Syntax:
+
+						   BOURNE AGAIN SHELL
+						GENERAL COMMANDS MANUAL
+
+
+
+
+alias		Create an alias,substitute a command to a simple word
+		Syntax:
 					
-							alias alias_name="command"
-								Create a new alias
+			alias alias_name="command"
+				Create a new alias
 								
-							alias		
-								Display all created aliases
+			alias		
+				Display all created aliases
 								
-							alias -p
-								Display all created aliases
+			alias -p
+				Display all created aliases
 
 
 
-unalias			Delete an alias
-						Syntax:
+unalias		Delete an alias
+		Syntax:
 					
-							unalias alias_name
-								Remove specified alias
+			unalias alias_name
+				Remove specified alias
 							
-							unalias -a
-								Remove all aliases
+			unalias -a
+				Remove all aliases
 								
 								
 								
-awk					Search files for lines (or other units of text) that contain a pattern
-						Syntax:
+awk		Search files for lines (or other units of text) that contain a pattern
+		Syntax:
 							
-							awk '{print $0}'
+			awk '{print $0}'
 							
-							awk '${print $1}'
+			awk '${print $1}'
 							
-							awk '${print $3}'
+			awk '${print $3}'
 							
 							
 							
-cat					Display content of text file on the screen
-						Syntax:
+cat		Display content of text file on the screen
+		Syntax:
 					
-							cat <filename>
-									Display content of file on the screen
+			cat <filename>
+				Display content of file on the screen
 			
 			
 			
-cd					Change Directory
-						Syntax:
+cd		Change Directory
+		Syntax:
 				
-							cd				
-									Change from previous directory to the home directory
+			cd				
+				Change from previous directory to the home directory
 
-							cd ~			
-									Change from previous directory to the home directory
+			cd ~			
+				Change from previous directory to the home directory
 
-							cd ..			
-									Change from previous directory to the parent directory 
+			cd ..			
+				Change from previous directory to the parent directory 
 
-							cd -			
-									Change from current directory to the previous directory
+			cd -			
+				Change from current directory to the previous directory
 
 
 
-echo				Display a line of text
-						Syntax:
+echo		Display a line of text
+		Syntax:
+						
+			echo "" > filename
+				Create an empty file, clear the content of a file
 							
-							echo "" > filename
-									Create an empty file, clear the content of a file
+			echo > filename
+				Create an empty file, clear the content of a file
 									
-							echo > filename
-									Create an empty file, clear the content of a file
+			echo "sample text" > filename
+				Create a file with a content
 									
-							echo "sample text" > filename
-									Create a file with a content
-									
-							echo "some text here" >> filename
-									Append to the previous content of the file
+			echo "some text here" >> filename
+				Append to the previous content of the file
 							
-							echo -n "sample text"
-									Do not output trailing newlines
+			echo -n "sample text"
+				Do not output trailing newlines
 							
-							echo -e "\n\t\ "
-									enable interpretation of backslashes escape (escape characters)
+			echo -e "\n\t\ "
+				enable interpretation of backslashes escape (escape characters)
 							
-							echo $(< filename)
-									Display content of a file
+			echo $(< filename)
+				Display content of a file
 							
 							
 							
-grep				print lines matching a pattern
-						Syntax:
+grep		print lines matching a pattern
+		Syntax:
 							
-							grep <Pattern>
-									Search for a pattern, used "|" pipe
-									
-							grep <Pattern> <filename>
-									Search for a pattern in a file
-									
+			grep <Pattern>
+				Search for a pattern, used "|" pipe
+
+			grep <Pattern> <filename>
+				Search for a pattern in a file
+
 								
 								
 head			
@@ -106,12 +112,44 @@ head
 tail			
 
 history		Display all executed commands in shell
-					Syntax:
+		Syntax:
 							
-							history
-ls				Dis
-	
-						
+			history
+			
+			
+			
+ls		List directory content
+		Syntax:
+		
+			ls -l
+				List directory content using long list format
+				
+			ls -R
+				List subdirectories recursively
+				
+			ls -r	
+				List directory content in reverse order (sort in reverse order)
+				
+			ls -t
+				List directory content, sorted by modification time, newest first
+				
 
+			ls -a
+				 Do not ignore entries starting with .
+				 List all content of the directory (including . and ..)
+				 
+				 
+			ls -A
+				Do not list implied . and ..
+				List all content of the directory (do not include . and ..)
+				
+	
+			ls -Rrt
+				List all content of the directory from oldest to newest modification time and the content of the subdirectories
+				
+			
+			
+			ls 
+				
 
 				
