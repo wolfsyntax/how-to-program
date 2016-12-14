@@ -1,0 +1,117 @@
+																					BASH (Bourne Again Shell)
+
+																					GENERAL COMMANDS MANUAL
+
+
+alias				Create an alias,substitute a command to a simple word
+						Syntax:
+					
+							alias alias_name="command"
+								Create a new alias
+								
+							alias		
+								Display all created aliases
+								
+							alias -p
+								Display all created aliases
+
+
+
+unalias			Delete an alias
+						Syntax:
+					
+							unalias alias_name
+								Remove specified alias
+							
+							unalias -a
+								Remove all aliases
+								
+								
+								
+awk					Search files for lines (or other units of text) that contain a pattern
+						Syntax:
+							
+							awk '{print $0}'
+							
+							awk '${print $1}'
+							
+							awk '${print $3}'
+							
+							
+							
+cat					Display content of text file on the screen
+						Syntax:
+					
+							cat <filename>
+									Display content of file on the screen
+			
+			
+			
+cd					Change Directory
+						Syntax:
+				
+							cd				
+									Change from previous directory to the home directory
+
+							cd ~			
+									Change from previous directory to the home directory
+
+							cd ..			
+									Change from previous directory to the parent directory 
+
+							cd -			
+									Change from current directory to the previous directory
+
+
+
+echo				Display a line of text
+						Syntax:
+							
+							echo "" > filename
+									Create an empty file, clear the content of a file
+									
+							echo > filename
+									Create an empty file, clear the content of a file
+									
+							echo "sample text" > filename
+									Create a file with a content
+									
+							echo "some text here" >> filename
+									Append to the previous content of the file
+							
+							echo -n "sample text"
+									Do not output trailing newlines
+							
+							echo -e "\n\t\ "
+									enable interpretation of backslashes escape (escape characters)
+							
+							echo $(< filename)
+									Display content of a file
+							
+							
+							
+grep				print lines matching a pattern
+						Syntax:
+							
+							grep <Pattern>
+									Search for a pattern, used "|" pipe
+									
+							grep <Pattern> <filename>
+									Search for a pattern in a file
+									
+								
+								
+head			
+	
+tail			
+
+history		Display all executed commands in shell
+					Syntax:
+							
+							history
+ls				Dis
+	
+						
+
+
+				
