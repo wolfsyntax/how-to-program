@@ -79,8 +79,14 @@ cd		Change Directory
 chmod		Change permission mode of a file or directory
 		Syntax:
 		
-			chmod ugo=-
-				Remove permission to user, group, other and all
+			chmod ugo=- *
+				Remove permission to all (user, group, other) files and directory
+			
+			chmod a=- *
+				Remove permission to all (user, group, other) files and directory
+				
+			chmod 0
+				Remove permission to all (user, group, other) files and directory
 			
 			
 			chmod a=rwx
@@ -88,6 +94,13 @@ chmod		Change permission mode of a file or directory
 				
 			chmod g=r
 				Add read permission to group
+			
+			chmod g=-r
+				Remove read permission to group
+			
+			chmod u=r,g=w,o=x *
+				Add read permission to user, write permission to group, and execute permission to others
+			
 				
 		[Permission mode]:
 			
@@ -164,13 +177,34 @@ rm		Remove file or directory
 				delete files and subdirectories
 				
 			rm -r
-				delete directories and their contents recursively including subdirectories
+				delete directories and their contents recursively including [subdirectories and content]
 				
 				
 
-rmdir		
+rmdir		Remove the DIRECTORY(ies), if they are empty.		
+		Syntax:
 		
-mkdir
+			rmdir <directory_name>
+				delete directory, if they are empty
+				
+			rmdir <directory_name> <directory_name>
+				delete directories, if they are empty
+				
+				
+				
+mkdir		Make directories
+		Syntax:
+			
+			mkdir <directory_name>
+				make directory
+				
+			mkdir <directory_name> <directory_name>
+				make directory
+			
+			mkdir -p <directory_name/subdirectory_name>
+				no error if existing, make parent directories as needed
+				If the subdirectory is not existing, it will create a subdirectory
+
 
 
 echo		Display a line of text
@@ -256,3 +290,15 @@ ls		List directory content
 				List all content of the directory [Default]
 
 				
+				
+pwd		print name of (absolute) current/working directory
+		Syntax:
+		
+			pwd	
+		
+		
+		
+expr
+
+
+tr		
