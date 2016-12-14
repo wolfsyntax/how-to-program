@@ -14,6 +14,13 @@ NOTE: used [command] --help or man [command], to view all information
 		echo --help	
 
 
+#		Comment
+
+
+
+#!/bin/bash	Shebang line
+
+
 
 alias		Create an alias,substitute a command to a simple word
 		Syntax:
@@ -281,8 +288,11 @@ tail		Output the last part of files
 				never output headers giving file names
 				output the last 10 lines of files
 			
-			
-
+			tail -5 file
+				output the last 5 lines of file
+				
+				
+				
 history		Display all executed commands in shell
 		Syntax:
 							
@@ -336,4 +346,174 @@ pwd		print name of (absolute) current/working directory
 expr
 
 
-tr		
+tr		Substitute
+		Syntax:
+		
+			tr [:upper:] [:lower:]
+				Substitute uppercase character into lowercase
+			
+			tr [:lower:] [:upper:]
+				Substitute uppercase character into lowercase
+			
+			tr "character_to_be_replaced" "replacement_of_character"
+				Substitute characters
+				
+				
+
+================================================================================================================================
+
+						CONTROL STRUCTURES			
+					
+Integer comparison
+-eq	equal
+-ne	not equal
+-lt	less than
+-gt	greater than
+-ge	greater than or equal
+-le	less than or equal
+
+
+
+
+
+For loop
+	
+	
+	for i in $(seq 1 50)
+	do
+		echo "$i"
+	done
+	
+	
+	
+	for i in `seq 1 50`
+	do
+		echo "$i"
+	done
+	
+	
+	
+	for i in $(linux_command)
+	do
+		echo "$i"
+	done
+	
+	
+	example:
+	
+	for i in $(ls)
+	do
+		echo "Files: $i"
+	done
+	
+	
+	
+	
+	
+	
+	
+While loop
+
+	ctr=0
+	
+	#Display multiples of 3
+	while [[ $ctr -le 50 ]]
+	do
+		ctr=`expr $ctr + 3`
+		echo "$ctr"
+	done
+	
+
+
+
+
+
+
+
+# C: Do while loop
+until loop
+
+	# continue looping (if condition is False) until the condition is true
+	
+	x=50
+	echo "Multiples of 3"
+	
+	
+	until [[ $x -lt 0 ]]
+	do
+		x=`expr $x - 1`
+		if [[ `expr $x % 3` -eq 0 ]]; then
+			echo "$x"
+		fi
+	done	
+	
+	
+
+	x=0
+	echo "Multiples of 5"
+
+	until [[ $x -ge 50 ]]
+	do
+
+		x=`expr $x + 5`
+		echo "$x"
+
+	done	
+	echo 	
+	
+
+
+
+
+
+case
+	
+	
+	case $var in
+		option ) action;;
+		* ) default_action;;
+	esac
+	
+	
+	
+	
+	
+if
+	
+	
+	if [[ condition ]]
+	then
+	
+	fi
+	
+	if [[ condition ]]; then
+	
+	fi
+	
+
+
+
+
+
+if..else if..else
+	
+	if [[ condition ]]; then
+	
+	elif [[ condition ]]; then
+	
+	else
+	
+	fi
+	
+	
+	
+	
+	
+	
+if..else
+
+	if [[ condition ]]; then
+	
+	else
+	
+	fi
