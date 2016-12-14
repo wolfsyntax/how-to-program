@@ -70,6 +70,54 @@ cd		Change Directory
 
 
 
+chmod		Change permission mode of a file or directory
+		Syntax:
+		
+			chmod ugo=-
+				Remove permission to user, group, other and all
+			
+			
+			chmod a=rwx
+				Add read, write and execute permission to user, group and other
+				
+			chmod g=r
+				Add read permission to group
+				
+		[Permission mode]:
+			
+			rwx	7	read, write and execute permission
+			rw	6	read and write permission
+			rx	5	read and execute permission
+			r	4	read permission
+			wx	3	write and execute permission
+			w	2	write permission
+			x	1	execute permission
+			clear 	0	remove permission
+		
+			+ 	add permission
+			-	remove permission
+			
+			u	user
+			g	group
+			o	other
+			a	all
+			
+			
+			
+clear		Clear screen
+		Syntax:
+		
+			clear
+
+
+cp		Copy files and directory
+		Syntax:
+		
+			cp <source_filename> <destination_filename>
+				copy file from source to destination
+				
+			cp -r <
+				
 echo		Display a line of text
 		Syntax:
 						
