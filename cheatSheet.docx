@@ -118,7 +118,7 @@ chmod		Change permission mode of a file or directory
 			wx	3	write and execute permission
 			w	2	write permission
 			x	1	execute permission
-			clear 	0	remove permission
+			- 	0	remove permission (clear permission)
 		
 			+ 	add permission
 			-	remove permission
