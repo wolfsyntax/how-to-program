@@ -8,6 +8,12 @@
 
 
 
+NOTE: used [command] --help or man [command], to view all information
+	example: 
+		man echo
+		echo --help	
+
+
 
 alias		Create an alias,substitute a command to a simple word
 		Syntax:
@@ -110,14 +116,63 @@ clear		Clear screen
 			clear
 
 
+
 cp		Copy files and directory
 		Syntax:
 		
-			cp <source_filename> <destination_filename>
-				copy file from source to destination
+			cp <source> <destination>
+				copy file or directory from source to destination
 				
-			cp -r <
+			cp -r <source> <destination>
+				copy directory recursively including the subdirectory and file
 				
+			cp -var <source> <destination>
+				copy files or directory, preserved the attributes and verbose (explain what is done)
+			
+			cp -a <source> <destination>
+				copy files or directory, preserved the attributes 
+		
+		
+				
+mv		Move (rename) a file
+		Syntax:
+		
+			mv <source_filename> <destination_filename
+				move file / directory to destination
+				
+			mv <old_filename> <new_filename>
+				rename filename
+				
+			mv <old_directory_name> <new_directory_name>
+				rename directory name
+				
+		
+		
+rm		Remove file or directory
+		Syntax:
+			
+			rm <filename>
+				delete specified file
+				
+			rm <filename> <filename>
+				delete specified files
+				
+			rm -fr
+				delete files and subdirectories
+				
+			rm -rf
+				delete files and subdirectories
+				
+			rm -r
+				delete directories and their contents recursively including subdirectories
+				
+				
+
+rmdir		
+		
+mkdir
+
+
 echo		Display a line of text
 		Syntax:
 						
@@ -198,6 +253,6 @@ ls		List directory content
 			
 			
 			ls 
-				
+				List all content of the directory [Default]
 
 				
