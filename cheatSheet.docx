@@ -244,9 +244,44 @@ grep		print lines matching a pattern
 
 								
 								
-head			
-	
-tail			
+head		Print the first 10 lines of a file
+		Syntax:
+			
+			head <filename>
+				print the first 10 lines of a file
+			
+			head -1 <filename>
+				print the first line of a file
+			
+			head -5 <filename>
+				print the first 5 lines of a file
+			
+			head -20 <filename>
+				print the first 20 lines of a file
+				
+			head -20 file1 file2
+				print the first 20 lines of the files
+			
+			head file1 file
+				print the first 10 lines of the files including the header (filename)
+				
+			head -q file1
+				print the first 10 lines of the files without the header (filename)
+				
+				
+				
+tail		Output the last part of files
+		Syntax:
+			
+			tail -q file
+				never output headers giving file names
+				output the last 10 lines of file
+			
+			tails -q file1 file2
+				never output headers giving file names
+				output the last 10 lines of files
+			
+			
 
 history		Display all executed commands in shell
 		Syntax:
