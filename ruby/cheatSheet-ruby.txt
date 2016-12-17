@@ -1,5 +1,37 @@
 =begin
 RUBY
   
+  # - Single line comment
+  
+  Multi-line comment  
+    =begin
 
+    =end
+  Global Variable
+    $variable_name    = can be used globally
+  
+  Instance Variable
+    @variable_name    = 
+    @@variable_name   = need to initialize before using it
+
+  Local variable
+    variable_name     = can be used inside a function or locally
+
+  NOTE: Variable name begins in uppercase character == Constant variable
+  
+  print               = Display (Output)
+  
+  gets                = User Input
+                      = Example:
+                          uinput = gets
+                          
 =end
+
+BEGIN {
+  # Statement inside the BEGIN { } will execute first before other statement(s)
+}
+
+END {
+  # Statement inside the END { } will execute after the program or all statement(s) executed
+}
+
