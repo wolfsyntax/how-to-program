@@ -147,11 +147,11 @@ INTEGERS
     077         Octal             Begins with 0
     0xfff       Hexadecimal       Begins with 0x
 
-Binary 
+
    Example: Conversion of Binary to Decimal, Hexadecimal and Octal
-          111  =  7   Decimal
-               =  07  Octal
-               = 0x7  Hexadecimal
+          111 Binary  =  7   Decimal
+                      =  07  Octal
+                      = 0x7  Hexadecimal
 
 Table (Conversion 0 to 20 in Decimal, Hexadecimal and Octal)
 
@@ -182,8 +182,32 @@ Table (Conversion 0 to 20 in Decimal, Hexadecimal and Octal)
 
 
 FLOATING NUMBERS 
-    3.1614
-    23.1416e-1
-    1.2e+3
+
+    3.1614            3.1416          #Floating point value
+    3.1416e-1         0.31416         #Scientific Notation  
+    1.2e+3            1200            #Scientific Notation
 
 
+STRING LITERALS
+
+  \       Used as escape character
+    
+    
+    \\    # \
+    \n    # newline
+    \t    # tab
+    \r    # carriage Return
+    \f    # Form Feed
+    \b    # Backspace
+    \a    # Bell / Beep
+    \e    # Escape
+    \s    # Space
+    \'    # '
+    \nnn  # Octal Expression inside " ", where n is from 0-7
+    
+    
+print "#{ruby_expression}" #put inside #{ }, any ruby expression
+
+
+ 
+ 
