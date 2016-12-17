@@ -21,7 +21,7 @@ RUBY
   
 STANDARD INPUT  / OUTPUT
 
-  print               = Display (Output)
+  print | puts | putc = Display (Output)
                       = Example:
                           
                           a = 5
@@ -116,5 +116,38 @@ Classes
 
 
 
+FILE Input / Output
+    Example:
+
+    fin = File.new("file.in","r");
+
+        # To access every character in a file
+        fin.for_each { |ch| putc "=>#{ch}\n"}
+
+        # To access every line in a file
+        fin.each_line{ |word| print "=>#{word.dump}" }
+
+        
+Pseudo Variables
+
+
+
+    self, true, false, nil
+
+    __FILE__      Current source filename
+
+    __LINE__      Current Line number of (__LINE__
+
+
 INTEGERS
+
+1234
+1_234
+3.1614
+23.1416e-1
+1.2e+3
+0b101
+077
+0xfff         
+
 
