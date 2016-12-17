@@ -141,13 +141,49 @@ Pseudo Variables
 
 INTEGERS
 
-1234
-1_234
-3.1614
-23.1416e-1
-1.2e+3
-0b101
-077
-0xfff         
+    1234
+    1_234
+    0b101       Binary            Begins with 0b
+    077         Octal             Begins with 0
+    0xfff       Hexadecimal       Begins with 0x
+
+Binary 
+   Example: Conversion of Binary to Decimal, Hexadecimal and Octal
+          111  =  7   Decimal
+               =  07  Octal
+               = 0x7  Hexadecimal
+
+Table (Conversion 0 to 20 in Decimal, Hexadecimal and Octal)
+
+          Decimal     Hexadecimal       Octal
+            0           0                 0
+            1           1                 1
+            2           2                 2
+            3           3                 3
+            4           4                 4
+            5           5                 5
+            6           6                 6
+            7           7                 7
+            8           8                 10
+            9           9                 11
+            10          A                 12
+            11          B                 13
+            12          C                 14
+            13          D                 15
+            14          E                 16
+            15          F                 17
+            16          10                20
+            17          11                21          
+            18          12                22
+            19          13                23
+            20          14                24
+  
+  
+
+
+FLOATING NUMBERS 
+    3.1614
+    23.1416e-1
+    1.2e+3
 
 
