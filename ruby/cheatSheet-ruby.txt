@@ -19,19 +19,102 @@ RUBY
 
   NOTE: Variable name begins in uppercase character == Constant variable
   
+STANDARD INPUT  / OUTPUT
+
   print               = Display (Output)
-  
+                      = Example:
+                          
+                          a = 5
+                          b = 5
+                          
+                          print "5 + 5 = #{a + b}"  #Output: 5 + 5 = 10
+                          
+                          print "Hello, World!"     #Output: Hello, World!
+                          
+                      
   gets                = User Input
                       = Example:
                           uinput = gets
-                          
+FILE INPUT / OUTPUT         
+
+  obj = File.new("Filename","mode");
+  
+    MODE
+    
+      r     Read-Only (Default Mode)
+      r+    Read-Write, start at the beginning of a file
+      w     Write-only, clear content of a file or creates a new file for writing.
+      w+    Read-Write, clear content of a file or creates a new file for reading and writing.
+      a     Write-Only, Append to the end of file, if file not exist it will create a new file for writing
+      a+    Read-write, Append to the end of file, if file not exist it will create a new file for reading and writing
+      b     Binary File mode
+
+
+
 =end
 
-BEGIN {
-  # Statement inside the BEGIN { } will execute first before other statement(s)
-}
 
-END {
-  # Statement inside the END { } will execute after the program or all statement(s) executed
-}
+
+      BEGIN {
+        # Statement inside the BEGIN { } will execute first before other statement(s)
+      }
+
+      END {
+        # Statement inside the END { } will execute after the program or all statement(s) executed
+      }
+
+Function
+
+      def functionName()
+
+      end
+      
+      functionName;
+    
+      def functionName(parameters)
+
+      end
+
+      functionName(arguments);
+
+Classes
+
+      class ClassName
+          def initialize(parameters)
+
+
+          end
+      end
+      
+      objectName = ClassName.new(arguments);
+
+      class ClassName
+          def functionName()
+
+          end
+      end
+
+      objectName = ClassName.new;
+
+      class ClassName
+      
+          @@variable_name = value; #needs to initialize before using it
+      
+          def initialize(parameters)
+            # Instance variable here
+          end
+      
+          def functionName()
+          
+          end
+          
+          def functionName(parameters)
+          
+          end
+      end
+
+
+
+
+INTEGERS
 
