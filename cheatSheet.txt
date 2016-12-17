@@ -259,7 +259,10 @@ echo		Display a line of text
 			echo $(< filename)
 				Display content of a file
 							
-							
+			echo '#!/bin/bash'
+				Display'#!/bin/bash (Shebang Line)
+				
+				
 							
 grep		print lines matching a pattern
 		Syntax:
@@ -269,7 +272,21 @@ grep		print lines matching a pattern
 
 			grep <Pattern> <filename>
 				Search for a pattern in a file
-
+				
+			grep -x "exact_word"
+				Search and display that match exactly to the pattern
+			
+			grep --only-matching "pattern"
+				
+			
+			
+			grep --count "pattern"
+				Count total match to the pattern
+				
+			grep --ignore-case "pattern"
+				Search and display match to the pattern and ignore case sensitivity of the pattern given
+				
+			
 								
 								
 head		Print the first 10 lines of a file
@@ -539,7 +556,23 @@ if..else
 	
 	fi
 	
-	
+
+
+
+
+=================================================================================================================================
+
+Regular Expression (RegEx)
+
+[0-9]
+[0-9]+$
+[:alnum:]
+[:alpha:]
+[:upper:]
+[:lower:]
+[:digit:]
+[:blank:]
+
 =================================================================================================================================
 
 sudo apt-get update
