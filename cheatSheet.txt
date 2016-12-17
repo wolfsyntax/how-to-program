@@ -17,6 +17,24 @@ NOTE: used [command] --help or man [command], to view all information
 #		Comment
 
 
+${BASH_VERSION}	Check Bash version
+
+wget URL	Download file
+		Example:
+		
+			Downloading Sublime Text (Debian 'Kali Linux')
+				wget http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3047_i386.deb
+			
+			Installing Sublime Text
+				sudo dpkg -i sublime-text_build-3047_i386.deb
+			
+			To open / run Sublime Text
+				subl	
+				
+				
+				
+				
+sudo		Run as root user
 
 #!/bin/bash	Shebang line
 
@@ -108,6 +126,9 @@ chmod		Change permission mode of a file or directory
 			chmod u=r,g=w,o=x *
 				Add read permission to user, write permission to group, and execute permission to others
 			
+			chmod -R a=rw *
+				Add read and write permission to all files, directories, subdirectories
+				
 				
 		[Permission mode]:
 			
@@ -517,3 +538,11 @@ if..else
 	else
 	
 	fi
+	
+	
+=================================================================================================================================
+
+sudo apt-get update
+
+
+
