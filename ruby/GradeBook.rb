@@ -10,7 +10,7 @@ BEGIN{
 		
 		@@courseName = ""
 
-		def initialize(name)
+		def initialize(name = "")
 			setCourseName(name)
 		end
 
