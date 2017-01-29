@@ -8,3 +8,4 @@ puts "This is a Ruby standard output"
 - [x] Finish my changes
 - [ ] Push my commits to GitHub
 - [ ] Open a pull request
+-[ ] C
