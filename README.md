@@ -1,11 +1,8 @@
 # HOW TO PROGRAM
-__CodeBank__ by @github/wolfsyntax
+__CodeBank__ by @github/wolfsyntax [Facebook](https://web.facebook.com/wolf.syntax "Facebook Profile")
 
 ``` Ruby
 require net.http
 puts "This is a Ruby standard output"
 ```
 
-:+1:
-[X] Task 1
-[ ] task 2
