@@ -1,5 +1,5 @@
 # HOW TO PROGRAM
-__CodeBank__ by [Wolf](@wolfsyntax)
+ by [Wolf](https://github.com/wolfsyntax/)
 
  :bust_in_silhouette: [Facebook](https://web.facebook.com/wolf.syntax "Facebook Profile") / [Twitter](https://twitter.com/wolfsyntax)
 
