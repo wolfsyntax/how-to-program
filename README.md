@@ -2,6 +2,16 @@
 __CodeBank__ by @github/wolfsyntax 
 [Facebook](https://web.facebook.com/wolf.syntax "Facebook Profile") / [Twitter](https://twitter.com/wolfsyntax)
 
+About the author:
+
+---------------------------------------------------------------------
+| Full Name       |   Jayson Alpe                                   |
+---------------------------------------------------------------------
+| Alias           |   Wolf Syntax                                   |
+---------------------------------------------------------------------
+| Github Username | [wolfsyntax](https://www.github.com/wolfsyntax) |
+---------------------------------------------------------------------
+
 ###### Known programming languages:
 
 - [x] Java
@@ -12,10 +22,5 @@ __CodeBank__ by @github/wolfsyntax
 - [x] Prolog
 - [x] ANSI Lisp
 - [x] Bash \(Shell)
-- [x] Ruby
+- [x] Ruby 
 
--------------------------------------------
-| Full Name | Jayson Alpe|
---------------------------
-| Github Username | [wolfsyntax](https://www.github.com/wolfsyntax) |
-----------------------------------------------------------------------
