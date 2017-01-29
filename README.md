@@ -1,11 +1,15 @@
 # HOW TO PROGRAM
-__CodeBank__ by @github/wolfsyntax [Facebook](https://web.facebook.com/wolf.syntax "Facebook Profile")
+__CodeBank__ by @github/wolfsyntax 
+[Facebook](https://web.facebook.com/wolf.syntax "Facebook Profile") / [Twitter](https://twitter.com/wolfsyntax)
 
-``` Ruby
-require net.http
-puts "This is a Ruby standard output"
-```
-- [x] Finish my changes
-- [ ] Push my commits to GitHub
-- [ ] Open a pull request
--[ ] C
+###### Known programming languages:
+
+- [x] Java
+- [x] C++
+- [x] C
+- [x] Python
+- [x] Assembly \(TASM)
+- [x] Prolog
+- [x] ANSI Lisp
+- [x] Bash \(Shell)
+- [x] Ruby
