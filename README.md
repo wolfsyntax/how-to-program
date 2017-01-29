@@ -3,7 +3,7 @@
 
 ###### Known programming languages:
 
-- [x] **Java**  [:arrow_double_down:](# "Java Cheatsheet")
+- [x] **Java**  
 - [x] **C++**   [](# "C++ Cheatsheet")
 - [x] **C**     [:arrow_double_down:](https://gist.github.com/wolfsyntax/04f5041a43d065345729a8e2d9ad52a5/raw/dfa10eb8a923af4066463a573b262065bca1966c/cheatSheet-CProgramming.in "C Cheatsheet")
 - [x] Python
@@ -12,13 +12,4 @@
 - [x] ANSI Lisp
 - [x] **Bash \(Shell)**[:arrow_double_down:](https://gist.github.com/wolfsyntax/04f5041a43d065345729a8e2d9ad52a5/raw/dfa10eb8a923af4066463a573b262065bca1966c/cheatSheet-bash.in "Bash / Shell Cheatsheet")
 - [x] **Ruby**   [:arrow_double_down:](https://gist.github.com/wolfsyntax/04f5041a43d065345729a8e2d9ad52a5/raw/dfa10eb8a923af4066463a573b262065bca1966c/cheatSheet-ruby.in "Ruby Cheatsheet")
-
-
-
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
 
