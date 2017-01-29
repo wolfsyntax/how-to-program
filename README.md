@@ -15,7 +15,6 @@
 
 | CHEATSHEET  |
 |:-------------:|
-|     | Links |
 | --- | ---: |
 |  C  | [:arrow_double_down:](https://gist.github.com/wolfsyntax/04f5041a43d065345729a8e2d9ad52a5) |
 | Java | [:arrow_double_down:](https://gist.github.com/wolfsyntax/04f5041a43d065345729a8e2d9ad52a5) |
