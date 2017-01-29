@@ -1,3 +1,2 @@
-[x] C++
-[x] C
-[x] Java
+# HOW TO PROGRAM
+__CodeBank__ by @wolfsyntax
