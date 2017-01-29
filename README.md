@@ -13,3 +13,9 @@ __CodeBank__ by @github/wolfsyntax
 - [x] ANSI Lisp
 - [x] Bash \(Shell)
 - [x] Ruby
+
+-------------------------------------------
+| Full Name | Jayson Alpe|
+--------------------------
+| Github Username | [wolfsyntax](https://www.github.com/wolfsyntax) |
+----------------------------------------------------------------------
